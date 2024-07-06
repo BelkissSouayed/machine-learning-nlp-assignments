@@ -71,18 +71,26 @@ This assignment helped me understand the process of building and evaluating mach
 
 To run the notebooks, you need to have the following libraries installed:
 
-- `scikit-learn`
-- `skorch`
-- `torch`
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `eli5`
+- `pandas`: for data manipulation and analysis
+- `numpy`: for numerical operations
+- `csv`: for reading and writing CSV files
+- `re`: for regular expression operations
+- `string`: for common string operations
+- `collections`: for specialized container datatypes like `defaultdict`
+- `scikit-learn`: for machine learning algorithms and utilities, including `BaseEstimator`, `TransformerMixin`, `MinMaxScaler`, `TfidfVectorizer`, and `f1_score`
+- `eli5`: for model interpretation
 
 You can install them using `pip`:
 
 ```bash
-pip install scikit-learn skorch torch numpy pandas matplotlib eli5
+pip install pandas numpy scikit-learn eli5
+
+### Explanation of Components
+
+- `BaseEstimator` and `TransformerMixin`: Components from `scikit-learn` used for creating custom transformers.
+- `MinMaxScaler`: A scaler from `scikit-learn` used for feature scaling.
+- `TfidfVectorizer`: A vectorizer from `scikit-learn` used for converting text data into TF-IDF feature vectors.
+- `f1_score`: A metric from `scikit-learn` used for evaluating model performance.
 
 Feel free to explore the notebooks and see the code in action. If you have any questions or suggestions, please let me know!
 
