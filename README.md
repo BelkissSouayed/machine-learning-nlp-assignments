@@ -80,10 +80,9 @@ To run the notebooks, you need to have the following libraries installed:
 - `scikit-learn`: for machine learning algorithms and utilities, including `BaseEstimator`, `TransformerMixin`, `MinMaxScaler`, `TfidfVectorizer`, and `f1_score`
 - `eli5`: for model interpretation
 
-You can install them using `pip`:
-
 ```bash
 pip install pandas numpy scikit-learn eli5
+```
 
 ### Explanation of Components
 
